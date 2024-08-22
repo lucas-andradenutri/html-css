@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(to right #000000 #e7eaee);
+}
+
+
+h1{ font-family: 'Times New Roman', Times, serif;
+    color: rgb(58, 52, 34);
+    font-size: 40px;
+}
+
+h2{ font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    
+}
+p{
+    color: #66634F;
+}
+
+li{ color: #3D3A23; 
+
+}
+
+a{
+    color:#3D3A23;}

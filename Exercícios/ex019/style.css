@@ -1,0 +1,29 @@
+@charset "UTF-8";
+body{
+    background-color: antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{
+    color: blue;
+}
+
+h1#principal{
+    color: aqua;
+    text-align: center;
+}
+h2{
+    color: blueviolet;
+}
+
+.basico{
+    color: blue;
+    font-size: 40px;
+
+}
+
+.intermediario{
+    color: yellow;
+    background-color: aqua;
+
+}
