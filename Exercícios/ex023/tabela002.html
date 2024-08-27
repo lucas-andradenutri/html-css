@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas grandes</title>
+    <style>
+        body{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+        td,th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        thead,tfoot{
+            background-color: brown;
+            color: aliceblue;
+        }
+
+        .num{
+            text-align: right;
+        }
+        caption{
+            font-size: 1.5em;
+            padding: 5px;
+            color: brown;
+        }
+        tbody>tr:nth-child(2n){
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <table>
+       <caption>Populacão 
+       </caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
+            </tr>
+        </thead>
+        <tbody>
+                <tr>
+                <td> São Paulo </td>
+                <td class="num"> 41 007 542 </td>
+                </td>
+                <tr>
+                <td> Minas </td>
+                <td class="num"> 41 007 542 </td>
+                </td>
+                <tr>
+                <td> Rio </td>
+                <td class="num"> 41 007 542 </td>
+                </td>
+                <tr>
+                <td> Amazonas</td>
+                <td class="num"> 41 007 542 </td>
+                </td>
+                <tr>
+                <td> Floripa </td>
+                <td class="num"> 41 007 542 </td>
+                </td>
+                <tr>
+                <td> Ceara </td>
+                <td class="num"> 41 007 542 </td>
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total</th>
+                <td class="num">4304303</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
